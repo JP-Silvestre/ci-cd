@@ -1,5 +1,5 @@
 name: Hello Actions
-on: [push]
+'on': [push]
 jobs:
   explore:
     runs-on: ubuntu-latest
