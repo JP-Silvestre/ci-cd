@@ -4,7 +4,7 @@ jobs:
   explore:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Event: ${{ github.event_name }}"
-      - run: echo "Runner: ${{ runner.os }}"
+      - run: 'echo "Event: ${{ github.event_name }}"'
+      - run: 'echo "Runner: ${{ runner.os }}"'
       - uses: actions/checkout@v6
       - run: ls "${{ github.workspace }}"
